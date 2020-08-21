@@ -471,6 +471,7 @@
         url : window.location.href,
         async:false,
         success:function (data, status, xhr) {
+            debugger;
             articleId = xhr.getResponseHeader("articleId");
         }
     });

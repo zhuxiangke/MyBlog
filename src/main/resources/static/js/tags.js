@@ -1,6 +1,5 @@
 
     var tag="";
-
     //添加所有标签
     function putInAllTags(data) {
         var allTags = $('.allTags');

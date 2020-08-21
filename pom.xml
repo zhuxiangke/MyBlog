@@ -88,11 +88,11 @@
 		</dependency>
 
 		<!--热部署-->
-		<!--<dependency>-->
-			<!--<groupId>org.springframework.boot</groupId>-->
-			<!--<artifactId>spring-boot-devtools</artifactId>-->
-			<!--<optional>true</optional>-->
-		<!--</dependency>-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<optional>true</optional>
+		</dependency>
 
 		<!-- Druid连接池包 -->
 		<dependency>
@@ -174,7 +174,14 @@
 			<artifactId>spring-boot-starter-aop</artifactId>
 		</dependency>
 
-	</dependencies>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.10.2</version>
+        </dependency>
+
+
+    </dependencies>
 
 	<build>
 		<plugins>
